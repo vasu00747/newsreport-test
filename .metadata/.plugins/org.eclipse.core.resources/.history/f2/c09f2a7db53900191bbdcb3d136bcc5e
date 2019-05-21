@@ -1,0 +1,21 @@
+package com.asminds.comparable;
+
+import java.util.ArrayList;
+import java.util.Collections;
+public class Customertest {
+
+	public static void main(String[] args) {
+		ArrayList<Comparablesample> a=new ArrayList<>();
+		a.add(new Comparablesample(110, "gayu"));
+		a.add(new Comparablesample(102,"mani"));
+		Collections.sort(a);
+		for(Comparablesample itr:a)
+		{
+			System.out.println(itr.getCustid());
+			System.out.println(itr.getName());
+		}
+		
+	}
+	
+
+}

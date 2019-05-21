@@ -1,0 +1,25 @@
+package com.asminds.Array;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class Arraylisttomapmain {
+	public static void main(String[] args) {
+		ArrayList<ArraylisttoMap> a=new ArrayList<>();
+		a.add(new ArraylisttoMap(101,"sugan"));
+		a.add(new ArraylisttoMap(102,"vasu"));
+		//a.add(new ArraylisttoMap(103,"kavi"));
+		//a.add(new ArraylisttoMap(104,"suja"));
+		HashMap<String,Integer> hm=new HashMap<>();
+		for(ArraylisttoMap m:a)
+		{
+			System.out.println(m.getId()+m.getName());
+		}
+		System.out.println(hm);
+
+
+		
+	}
+	
+
+}

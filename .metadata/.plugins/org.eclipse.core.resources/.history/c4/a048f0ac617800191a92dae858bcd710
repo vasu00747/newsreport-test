@@ -1,0 +1,59 @@
+package com.asminds.photo.daoimpl;
+
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.asminds.customer.Customer;
+import com.asminds.photo.bean.Photographer;
+import com.asminds.photo.dao.PhotoDao;
+
+public class Photodaoimpl implements PhotoDao {
+
+	@Override
+	public String insert(Photographer p) {
+		Configuration cfg=new Configuration();
+		cfg.configure("hibernate.cfg.xml");
+		SessionFactory sf=cfg.buildSessionFactory();
+		Session s=sf.openSession();
+		Transaction t=s.beginTransaction();
+		s.save(p);
+		t.commit();
+		System.out.println("inserted sucessfully");
+		sf.close();
+		s.close();
+		return null;
+	}
+/*	public List<Photographer> selected(Photographer p) {
+		Configuration cfg=new Configuration();
+		cfg.configure("hibernate.cfg.xml");
+		SessionFactory factory=cfg.buildSessionFactory();
+		Session session=factory.openSession();
+		Query q=session.createQuery("from Customer p");
+		List<Photographer>l=q.list();
+		System.out.println("total records"+l.size());
+		
+		Iterator it=l.iterator();
+		while(it.hasNext())
+		{                 
+			Photographer cs =(Photographer)it.next();
+			System.out.println(cs.getExperience());
+			System.out.println(cs.getId());
+			System.out.println(cs.getName());
+		}
+
+		System.out.println(" selected sucessfully");
+		session.close();     
+		factory.close();
+		// TODO Auto-generated method stub
+		return l;
+	}
+
+	
+*/
+}

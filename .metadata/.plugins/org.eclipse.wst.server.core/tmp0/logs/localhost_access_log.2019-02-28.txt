@@ -1,0 +1,9 @@
+127.0.0.1 - - [28/Feb/2019:16:54:33 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [28/Feb/2019:16:54:38 +0530] "GET /Rightknowproject/ HTTP/1.1" 200 386
+0:0:0:0:0:0:0:1 - - [28/Feb/2019:16:54:45 +0530] "GET /Rightknowproject/customerview HTTP/1.1" 200 754
+0:0:0:0:0:0:0:1 - - [28/Feb/2019:16:54:51 +0530] "GET /Rightknowproject/selectone HTTP/1.1" 200 321
+0:0:0:0:0:0:0:1 - - [28/Feb/2019:16:57:45 +0530] "POST /Rightknowproject/selectonecontrol HTTP/1.1" 200 814
+0:0:0:0:0:0:0:1 - - [28/Feb/2019:16:59:47 +0530] "GET /Rightknowproject/selectone HTTP/1.1" 200 321
+0:0:0:0:0:0:0:1 - - [28/Feb/2019:17:00:05 +0530] "POST /Rightknowproject/selectonecontrol HTTP/1.1" 200 834
+0:0:0:0:0:0:0:1 - - [28/Feb/2019:17:00:05 +0530] "POST /Rightknowproject/selectonecontrol HTTP/1.1" 200 834
+0:0:0:0:0:0:0:1 - - [28/Feb/2019:17:00:26 +0530] "POST /Rightknowproject/selectonecontrol HTTP/1.1" 200 834

@@ -1,0 +1,12 @@
+package com.asminds.versioning;
+
+import javax.persistence.Id;
+
+public class Agents {
+	private int aid;
+	private String aname;
+	private String location;
+	private int v;
+	
+}
+	

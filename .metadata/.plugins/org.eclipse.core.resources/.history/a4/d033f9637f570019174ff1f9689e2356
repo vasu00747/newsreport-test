@@ -1,0 +1,10 @@
+package com.asminds.Array;
+
+public class ArraylisttoMap {
+	int id;
+	String name;
+	
+	
+	
+
+}

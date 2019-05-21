@@ -1,0 +1,47 @@
+package com.asminds.comparable;
+
+public class Comparablesample implements Comparable<Comparablesample> {
+	int custid;
+	String name;
+	
+	
+	public int getCustid() {
+		return custid;
+	}
+
+
+	public void setCustid(int custid) {
+		this.custid = custid;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public Comparablesample(int custid, String name) {
+		super();
+		this.custid = custid;
+		this.name = name;
+	}
+
+
+	@Override
+	public int compareTo(Comparablesample o) {
+		// TODO Auto-generated method stub
+		if(custid==o.custid)
+			return 0;
+		else if(custid<o.custid)
+			return -1;
+		return 1;
+		
+	}
+	
+
+}

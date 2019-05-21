@@ -1,0 +1,18 @@
+package com.asminds.Array;
+
+import java.util.ArrayList;
+
+public class Arraylisttomapmain {
+	public static void main(String[] args) {
+		ArrayList<ArraylisttoMap> a=new ArrayList<>();
+		a.add(new ArraylisttoMap(101,"sugan"));
+		a.add(new ArraylisttoMap(102,"vasu"));
+		a.add(new ArraylisttoMap(102,"kavi"));
+		a.add(new ArraylisttoMap(102,"suja"));
+
+
+		
+	}
+	
+
+}

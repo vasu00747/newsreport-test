@@ -1,0 +1,8 @@
+package com.asminds.Array;
+
+import java.util.ArrayList;
+
+public class Arraylisttomapmain {
+	ArrayList<ArraylisttoMap> a=new ArrayList<>();
+
+}

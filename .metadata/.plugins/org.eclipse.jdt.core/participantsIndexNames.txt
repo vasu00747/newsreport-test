@@ -1,0 +1,9 @@
+INDEX VERSION 1.130
+D:\java\New folder\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\75683554.index
+\oopsencapsulation\src
+D:\java\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\75683554.index
+\oopsencapsulation\src
+D:\java\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3893318124.index
+\SpringCore1\src
+D:\java\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1384061718.index
+\corejava4\src

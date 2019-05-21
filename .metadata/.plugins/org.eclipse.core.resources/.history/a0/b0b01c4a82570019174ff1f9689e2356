@@ -1,0 +1,19 @@
+package com.asminds.Array;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+
+public class Listtoset {
+	public static void main(String[] args) {
+		ArrayList<String>al=new ArrayList<>();
+		al.add("arivu");
+		al.add("suja");
+		HashSet<String>hs=new HashSet<>(al);
+		for(String s:hs)
+		{
+			System.out.println(s);
+		}
+		
+	}
+
+}

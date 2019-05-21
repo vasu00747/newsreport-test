@@ -1,0 +1,32 @@
+package com.asminds.flex;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Arrayduplicateremove {
+	public static void main(String[] args) {
+		ArrayList<String>al=new ArrayList<String>();
+		al.add("vasamalli");
+		al.add("suganya");
+		al.add("suganya");
+		al.add("kavi");
+		al.add("vasamalli");
+		Iterator<String> itr=al.iterator();
+		
+		while(itr.hasNext())
+		{
+			String dup=itr.next();
+			if(al.contains(al1))
+			{
+				itr.remove();
+					
+			}
+		}
+		
+
+
+		
+		
+	}
+
+}

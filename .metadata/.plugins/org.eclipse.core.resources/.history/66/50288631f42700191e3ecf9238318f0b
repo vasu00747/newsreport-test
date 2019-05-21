@@ -1,0 +1,46 @@
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.Daoimpl.EmpDaoimpl;
+import com.bean.Employee;
+
+@Controller
+public class Maincontroller {
+	@RequestMapping("/")
+	public String first() {
+		System.out.println("index page");
+		return "index";
+	}
+
+	@RequestMapping("/login")
+	public String second() {
+		System.out.println("seeecond page");
+		return "welcome";
+	}
+
+	@RequestMapping("/loginvalidation")
+	public String third(Employee e) {
+		System.out.println("third page");
+
+		EmpDaoimpl emp = new EmpDaoimpl();
+		boolean b = emp.insert(e);
+
+		if (b == true) {
+			return "success";
+		} 
+		else 
+		{
+			return "error";
+		}
+	}
+	@RequestMapping("/Register")
+	public String fourth() {
+		System.out.println("fourth page");
+		return "welcome";
+	}
+
+	
+
+}

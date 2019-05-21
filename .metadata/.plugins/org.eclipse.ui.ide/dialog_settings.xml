@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="378" key="DIALOG_HEIGHT"/>
+		<item value="433" key="DIALOG_X_ORIGIN"/>
+		<item value="112" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\java\eclipse-workspace\BLOOD BANK1"/>
+			<item value="D:\java\eclipse-workspace\BLOOD BANK"/>
+			<item value="D:\java software\eclipse-workspace\Corejava"/>
+			<item value="D:\java software\eclipse-workspace\j2eee"/>
+			<item value="D:\java\eclipse-workspace\com.asminds.Spoors"/>
+			<item value="D:\java\eclipse-workspace\CoreSpring"/>
+			<item value="D:\java\eclipse-workspace\AsmindsStudntDetail"/>
+			<item value="D:\java\eclipse-workspace\UDS-EMS"/>
+			<item value="D:\java software\eclipse-workspace\StudentRegistration"/>
+			<item value="D:\java software\eclipse-workspace\Studentinfomation"/>
+			<item value="D:\java software\eclipse-workspace\Springmvc"/>
+			<item value="D:\java software\eclipse-workspace\SpringMvcExample"/>
+			<item value="D:\java software\eclipse-workspace\Springhelloworld"/>
+			<item value="D:\java software\eclipse-workspace\oopsencapsulation"/>
+			<item value="D:\java software\eclipse-workspace\Loginpage"/>
+			<item value="D:\java software\eclipse-workspace\Jdbcsample"/>
+			<item value="D:\java software\eclipse-workspace\Jdbcproject"/>
+			<item value="D:\java software\eclipse-workspace\Hybernateexample"/>
+			<item value="D:\java software\eclipse-workspace\BifoastspringMvc"/>
+			<item value="D:\java software\eclipse-workspace\Asminds.jsp"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="580" key="DIALOG_HEIGHT"/>
+		<item value="429" key="DIALOG_X_ORIGIN"/>
+		<item value="8" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

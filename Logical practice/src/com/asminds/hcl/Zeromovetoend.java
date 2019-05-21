@@ -1,0 +1,56 @@
+package com.asminds.hcl;
+
+import java.util.ArrayList;
+
+public class Zeromovetoend {
+	public static void main(String[] args) {
+		int a[]={8,0,5,0,6};
+		int size=a.length;
+		System.out.println(size);
+
+		int c1=0, c2=0;
+	 	for(int i=0;i<size;i++)
+		{
+			if(a[i]==0)
+			{                                                     
+				c2++;
+			}
+			c1++;
+		}
+		
+		int first[]=new int[c1];
+		int second[]=new int[c2];
+		int k=0, m=0;
+		for(int j=0; j<size; j++)
+		{
+			if(a[j]==0)
+			{
+				second[k]=0;
+				k++;
+			}
+			else
+			{
+				first[m]=a[j];
+				m++;
+			}
+		}
+		int b[]=new int[size];
+		for(int i=0; i<c1; i++)
+		{
+			b[i]=first[i];
+			
+		}
+		int j=0;
+		for(int i=c1; i<size; i++)
+		{
+			b[i]=second[j];
+			j++;
+			
+		}
+		for(int i=0; i<size; i++)
+		{
+			System.out.println(b[i]);
+		}
+	}
+
+}

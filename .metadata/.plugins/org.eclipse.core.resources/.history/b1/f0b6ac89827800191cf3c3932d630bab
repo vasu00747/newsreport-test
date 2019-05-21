@@ -1,0 +1,67 @@
+package com.asminds.photo.controller;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.asminds.photo.pogologin.Loginpojo;
+
+@Controller
+public class Photocontroller {
+	@RequestMapping("/")
+	public String index()
+	{
+		System.out.println("index page");
+		return"index";
+	}
+	@RequestMapping("/admin")
+	public String admin()
+	{
+		System.out.println("login page");
+		return"admin";
+	}
+	@RequestMapping("/clicksign")
+		public String validation(@ModelAttribute ("b") Loginpojo l1){
+		System.out.println(l1.getUsername());
+		String username=l1.getUsername();
+		String password=l1.getPassword();
+		if(username.equals("vasu") && password.equals("vasamalli"))
+		{
+			return "home";
+		}
+		else
+		{
+			return "error";
+		}
+	}
+		@RequestMapping("/addphotographerss")
+		public String addphoto(){
+			System.out.println("addphotographers page");
+			return"addphotographers";
+	}
+		@RequestMapping("/registerclick")
+		public String register(){
+			System.out.println("registerclick page");
+			return"sucess";
+	}
+		@RequestMapping("/backclick")
+		public String back(){
+			System.out.println("Back page");
+			return"index";
+		}
+
+		@RequestMapping("/user")
+		public String useroption(){
+			System.out.println("useroption page");
+			return"login1";
+		}
+		@RequestMapping("/usermodulee")
+		public String user(){
+			System.out.println("usermodule page");
+			return"login1";
+		}
+
+}

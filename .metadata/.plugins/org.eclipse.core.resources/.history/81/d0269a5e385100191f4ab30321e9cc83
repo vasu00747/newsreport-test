@@ -1,0 +1,11 @@
+package com.asminds.flex;
+
+import java.util.ArrayList;
+
+public class Arrayduplicateremove {
+	public static void main(String[] args) {
+		ArrayList<String>al=new ArrayList<String>();
+		
+	}
+
+}

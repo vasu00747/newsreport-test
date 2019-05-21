@@ -1,0 +1,32 @@
+package com.asminds.Daoimpl;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.asminds.Dao.Dao1;
+import com.asminds.customer.Employee;
+
+public class Daoimpl1 implements Dao1{
+	public String insert(Employee e)
+	
+	{
+		Configuration cfg=new Configuration();
+		cfg.configure("hibernate.cfg1.xml");
+		SessionFactory factory=cfg.buildSessionFactory();
+		Session session=factory.openSession();
+		Transaction tx=session.beginTransaction();
+		session.save(e);
+		System.out.println("data created");
+		tx.commit();
+		session.close();
+		factory.close();
+		return null;
+		
+		
+		
+	}
+	
+
+}

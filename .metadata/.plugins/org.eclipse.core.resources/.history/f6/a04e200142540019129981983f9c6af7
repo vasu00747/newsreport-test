@@ -1,0 +1,39 @@
+package com.asminds.string;
+
+import java.util.Scanner;
+
+public class Stringreverse {
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the string ");
+		String s1=sc.nextLine();		
+		int len=s1.length();
+		System.out.println(len);
+		String c[]=s1.split("\\s",1);
+		for(String s:c)
+		{
+		System.out.println(s);
+		}
+		String s;
+		char x[]=s.toCharArray();
+		//first method
+		for(int i=x.length-1;i>=0;i--)
+		{
+           // used to print index of particular element
+            System.out.println(x[i]);
+		}
+	}
+    
+	
+
+	
+
+*/		//second method
+		/*char c[]=s1.toCharArray(); string to chararray
+		for(int i=c.length-1;i>=0;i--)
+		{
+            System.out.println(c[i]);
+
+		}
+*/

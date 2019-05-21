@@ -1,0 +1,49 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+     <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<table>
+
+<c:forEach items="${ed}" var="ee">
+<form action="editConData" method="post">
+<input type="hidden" name="cus" value="<c:out value="${ee.cus}"/>">
+
+
+<tr>
+<th>Cusromerid</th><td><input type="text" name="id" value="<c:out value="${ee.id}"/>"></td>
+</tr>
+<tr>
+<th>Uniqueid</th><td><input type="text" name="uniqueid" value="<c:out value="${ee.uniqueid}"/>"></td>
+</tr>
+<tr>
+<th>Name</th><td><input type="text" name="name" value="<c:out value="${ee.name}"/>"></td>
+</tr>
+<th>Location</th><td><input type="text" name="location" value="<c:out value="${ee.location}"/>"></td>
+</tr>
+<th>Pincode</th><td><input type="text" name="pincoe" value="<c:out value="${ee.pincode}"/>"></td>
+</tr>
+<th>Mobileno</th><td><input type="text" name="mobileno" value="<c:out value="${ee.mobileno}"/>"></td>
+</tr>
+<th>Mailid</th><td><input type="text" name="mailid" value="<c:out value="${ee.mailid}"/>"></td>
+</tr>
+<th>Devicename</th><td><input type="text" name="devicename" value="<c:out value="${ee.devicename}"/>"></td>
+</tr>
+
+
+
+
+<td><input type="submit" value="update"> </td>
+
+</form>
+</c:forEach>
+
+</table>
+</body>
+</html>
